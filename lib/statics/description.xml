@@ -13,7 +13,7 @@
 		<modelName>Jasmin Upnp server</modelName>
 		<modelNumber>1.0</modelNumber>
 		<modelURL>https://github.com/oeuillot/freebox-jasmin</modelURL>
-		<UDN>uuid:1b8a1df7-fd67-4518-a5b7-133c88baf635</UDN>
+		<UDN>uuid:1b8a1df7-2706-4518-a5b7-133c88baf635</UDN>
 		<serviceList>
 			<service>
 				<serviceType>urn:schemas-upnp-org:service:ContentDirectory:1
