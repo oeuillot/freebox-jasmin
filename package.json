@@ -9,7 +9,7 @@
   "dependencies": {
     "debug": "~2.2",
     "freebox-qml-run": "latest",
-    "node-ssdp": "2.2.1",
+    "node-ssdp": "latest",
     "jstoxml": "0.2",
     "node-uuid": "1.4",
     "commander": "latest",

@@ -2,7 +2,7 @@
 'use strict';
 
 var commander = require('commander');
-var debug = require('debug')('freebox-qml-run:cli');
+var debug = require('debug')('freebox-jasmin:cli');
 var freebox = require('freebox-qml-run');
 var ip = require('ip');
 var Server = require('./lib/server');
