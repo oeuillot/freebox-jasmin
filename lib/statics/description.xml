@@ -6,14 +6,14 @@
 	</specVersion>
 	<device>
 		<deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType>
-		<friendlyName>Lancer Jasmin</friendlyName>
+		<friendlyName>&gt;&gt;&gt; Lancer Jasmin &lt;&lt;&lt;</friendlyName>
 		<manufacturer>Olivier Oeuillot</manufacturer>
 		<manufacturerURL>https://github.com/oeuillot</manufacturerURL>
 		<modelDescription>Permet de lancer Jasmin</modelDescription>
 		<modelName>Jasmin Upnp server</modelName>
 		<modelNumber>1.0</modelNumber>
 		<modelURL>https://github.com/oeuillot/freebox-jasmin</modelURL>
-		<UDN>uuid:1b8a1df7-2706-4518-a5b7-133c88baf635</UDN>
+		<UDN>uuid:3faaacec-e3e6-4962-bcbc-d0e23891bbcf</UDN>
 		<iconList>
 			<icon>
 				<mimetype>image/png</mimetype>
@@ -32,19 +32,15 @@
 		</iconList>
 		<serviceList>
 			<service>
-				<serviceType>urn:schemas-upnp-org:service:ContentDirectory:1
-				</serviceType>
-				<serviceId>urn:upnp-org:serviceId:urn:schemas-upnp-org:service:ContentDirectory
-				</serviceId>
+				<serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType>
+				<serviceId>urn:upnp-org:serviceId:urn:schemas-upnp-org:service:ContentDirectory</serviceId>
 				<SCPDURL>/contentDirectory.xml</SCPDURL>
 				<controlURL>/contentDirectory_control</controlURL>
 				<eventSubURL>/contentDirectory_event</eventSubURL>
 			</service>
 			<service>
-				<serviceType>urn:schemas-upnp-org:service:ConnectionManager:1
-				</serviceType>
-				<serviceId>urn:upnp-org:serviceId:urn:schemas-upnp-org:service:ConnectionManager
-				</serviceId>
+				<serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+				<serviceId>urn:upnp-org:serviceId:urn:schemas-upnp-org:service:ConnectionManager</serviceId>
 				<SCPDURL>/connectionManager.xml</SCPDURL>
 				<controlURL>/connectionManager_control</controlURL>
 				<eventSubURL>/connectionManager_event</eventSubURL>

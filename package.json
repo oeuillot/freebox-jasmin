@@ -16,7 +16,9 @@
     "serve-static": "latest",
     "ip": "latest",
     "connect": "latest",
-    "uuid": "latest"
+    "uuid": "latest",
+    "qml-jasmin": "latest",
+    "request": "latest"
  },
   "keywords": [
     "freebox","qml", "jasmin"
