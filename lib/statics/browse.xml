@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns="urn:schemas-upnp-org:service-1-0" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<s:Body><u:BrowseResponse xmlns:u="urn:schemas-upnp-org:service:ContentDirectory:1"><Result>&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:fm=&quot;urn:schemas-jasmin-upnp.net:filemetadata/&quot; xmlns:mm=&quot;urn:schemas-jasmin-upnp.net:musicmetadata/&quot; xmlns:mo=&quot;urn:schemas-jasmin-upnp.net:moviemetadata/&quot;&gt;
+ &lt;container id=&quot;0&quot; parentID=&quot;-1&quot; restricted=&quot;1&quot; searchable=&quot;0&quot; childCount=&quot;0&quot;&gt;
+  &lt;dc:title&gt;Jasmin&lt;/dc:title&gt;
+  &lt;upnp:class&gt;object.container&lt;/upnp:class&gt;
+ &lt;/container&gt;
+&lt;/DIDL-Lite&gt;
+</Result><NumberReturned>1</NumberReturned><TotalMatches>1</TotalMatches><UpdateID>1</UpdateID></u:BrowseResponse></s:Body></s:Envelope>

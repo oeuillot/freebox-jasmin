@@ -3,14 +3,12 @@
 
 var commander = require('commander');
 var debug = require('debug')('freebox-jasmin:cli');
-var freebox = require('freebox-qml-run');
-var ip = require('ip');
 var Server = require('./lib/server');
 var ClientsList = require('./lib/clientsList');
 
 commander.version(require("./package.json").version);
 
-commander.command('run').description("Run upnp jasmin server").action(
+commander.command('*').description("Run upnp jasmin server").action(
     function(programPath) {
 
       var clientsList = new ClientsList();

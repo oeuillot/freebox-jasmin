@@ -1,6 +1,6 @@
 {
   "name": "freebox-jasmin",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Run jasmin on freebox",
   "bin": {
     "freebox-jasmin": "./bin/freebox-jasmin"
@@ -8,17 +8,17 @@
   "main": "./index.js",
   "dependencies": {
     "debug": "~2.2",
-    "freebox-qml-run": "latest",
-    "node-ssdp": "latest",
-    "jstoxml": "0.2",
-    "node-uuid": "1.4",
-    "commander": "latest",
-    "serve-static": "latest",
-    "ip": "latest",
-    "connect": "latest",
-    "uuid": "latest",
-    "qml-jasmin": "latest",
-    "request": "latest"
+    "freebox-qml-run": "~1.0",
+    "node-ssdp": "^2.6.3",
+    "jstoxml": "~0.2",
+    "node-uuid": "~1.4",
+    "commander": "~2.9",
+    "serve-static": "~1.10",
+    "ip": "~1.1",
+    "connect": "~3.4",
+    "uuid": "~2.0",
+    "qml-jasmin": "oeuillot/Jasmin",
+    "request": "~2.67"
  },
   "keywords": [
     "freebox","qml", "jasmin"
