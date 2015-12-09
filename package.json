@@ -1,6 +1,6 @@
 {
   "name": "freebox-jasmin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run jasmin on freebox",
   "bin": {
     "freebox-jasmin": "./bin/freebox-jasmin"
@@ -17,7 +17,7 @@
     "ip": "~1.1",
     "connect": "~3.4",
     "uuid": "~2.0",
-    "qml-jasmin": "oeuillot/Jasmin",
+    "qml-jasmin": "git://github.com/oeuillot/Jasmin.git",
     "request": "~2.67"
  },
   "keywords": [
