@@ -20,7 +20,7 @@ cd freebox-jasmin
 npm install --production
 ```
 
-Pour connaître des dernières versions disponibles:
+Pour connaître les dernières versions disponibles :
 https://github.com/oeuillot/freebox-jasmin/releases
 
 Ou
