@@ -15,7 +15,9 @@ npm install --global --production freebox-jasmin
 Pour une installation locale dans un dossier :
 
 ```bash
-npm install --production freebox-jasmin
+git clone --branch v0.1-alpha https://github.com/oeuillot/freebox-jasmin.git
+cd freebox-jasmin
+npm install --production
 ```
 
 Lancement
@@ -24,14 +26,25 @@ Lancement
 En mode global, une fois tout installé, vous pouvez lancer :
 
 ```bash
-freebox-jasmin  
+freebox-jasmin run
 ```
 
 En mode dossier, dans le dossier de freebox-jasmin :
 
 ```bash
-node index.js
+node index.js run
 ```
+
+Logs
+----
+Pour avoir un minimum de logs, vous pouvez spécifier:
+
+```bash
+export DEBUG=freebox-jasmin,freebox-jasmin:clientsList,freebox-jasmin:upnp,freebox-qml-run
+```
+
+Vous pouvez retirer un des éléments de la liste si cela ne vous intéresse pas !
+
 
 Mise à jour
 ---
