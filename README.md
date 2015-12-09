@@ -9,12 +9,13 @@ Si vous n'avez rien installé sur votre serveur, veuillez suivre la procédure :
 
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
-<<Logout and Login>>
+<<Relancer votre shell>>
 nvm install v4.2.3
 npm install --global --production freebox-jasmin
 npm install pm2 --global --production
 pm2 startup
-pm2 start index.js --name "freebox-jasmin"  --watch --node-args="--optimize_for_size --max_old_space_size=460 --gc_interval=100 --always_compact --max_executable_size=64 --gc_global"
+cd $NVM_BIN
+pm2 start freebox-jasmin --name "freebox-jasmin" --node-args="--optimize_for_size --max_old_space_size=460 --gc_interval=100 --always_compact --max_executable_size=64 --gc_global"
 pm2 save
 ```
 
