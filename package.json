@@ -21,7 +21,7 @@
     "request": "~2.67"
  },
   "keywords": [
-    "freebox","qml", "jasmin"
+    "freebox", "qml", "jasmin"
   ],
   "repository": { "type": "git", "url": "https://github.com/oeuillot/freebox-jasmin.git" },
   "author": "Olivier Oeuillot",
