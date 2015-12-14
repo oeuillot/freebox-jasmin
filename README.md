@@ -19,6 +19,8 @@ pm2 start freebox-jasmin --name "freebox-jasmin" --node-args="--optimize_for_siz
 pm2 save
 ```
 
+Attention plusieurs warnings peuvent s'afficher, ne pas en tenir compte.
+
 A priori, à chaque redemarrage de votre machine, freebox-jasmin doit se lancer.
 
 Installation simple

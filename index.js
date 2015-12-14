@@ -7,6 +7,9 @@ var Server = require('./lib/server');
 var ClientsList = require('./lib/clientsList');
 
 commander.version(require("./package.json").version);
+commander.option("--jasminPath <path>", "Jasmin path");
+commander.option("--httpPort <port>", "Http port", parseInt);
+commander.option("--httpAddress <address>", "Http address");
 
 commander.command('*').description("Run upnp jasmin server").action(
     function(programPath) {
@@ -20,7 +23,6 @@ commander.command('*').description("Run upnp jasmin server").action(
           console.error(error);
           return;
         }
-
       });
     });
 

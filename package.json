@@ -18,7 +18,9 @@
     "connect": "~3.4",
     "uuid": "~2.0",
     "qml-jasmin": "git://github.com/oeuillot/Jasmin.git",
-    "request": "~2.67"
+    "request": "~2.67",
+    "compression": "latest",
+    "body-parser": "latest"
  },
   "keywords": [
     "freebox", "qml", "jasmin"
